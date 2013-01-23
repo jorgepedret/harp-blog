@@ -1,0 +1,31 @@
+!!!5
+html(lang="en")
+  head
+    //link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,800')
+    link(rel='stylesheet', href='/css/app.css')
+    title Hello!
+  body(class="#{ current }")
+    .visible-phone
+      .navbar.navbar-static-top
+        .navbar-inner
+          .container-fluid
+            a.navbar-text(href="#")
+              i.icon-home.icon-large
+    article#content
+      .container-fluid
+        .row-fluid
+          .span8.main
+            if (current[0] == "posts")
+              .post.post-single.post-quote
+                .post-meta
+                  .post-type
+                    i.icon-quote-left.icon-2x
+                  .post-data
+                    span.month #{ posts[current[1]].date.month }
+                    span.day #{ posts[current[1]].date.day }
+                    span.year #{ posts[current[1]].date.year }
+                .post-content
+                  != yeild
+            else
+              != yeild
+          != partial("_aside")

@@ -1,0 +1,42 @@
+{
+  "hello-world": {
+    "date": {
+      "day": "06",
+      "month": "Dec",
+      "year": "2012"
+    },
+    "type": "post",
+    "title": "Hello World",
+    "excerpt": "Yo!"
+  },
+  "foo-bar": {
+    "date": {
+      "day": "06",
+      "month": "Dec",
+      "year": "2012"
+    },
+    "type": "post",
+    "title": "Hello World",
+    "excerpt": "Yo!"
+  },
+  "baz-bar": {
+    "date": {
+      "day": "06",
+      "month": "Dec",
+      "year": "2012"
+    },
+    "type": "post",
+    "title": "Hello World",
+    "excerpt": "Yo!"
+  },
+  "cool-story-bro": {
+    "date": {
+      "day": "06",
+      "month": "Dec",
+      "year": "2012"
+    },
+    "type": "post",
+    "title": "Hello World",
+    "excerpt": "Yo!"
+  }
+}

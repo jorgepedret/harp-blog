@@ -1,0 +1,47 @@
+div(class="post post-#{ post.type }")
+  .post-meta
+    .post-type
+      i(class="icon-#{ post.type } icon-2x")
+    .post-data
+      span.month #{ post.date.month }
+      span.day #{ post.date.day }
+      span.year #{ post.date.year }
+  .post-content
+    h2: a(href="/posts/#{ slug }") #{ post.title }
+    p #{ post.excerpt }
+
+//- .post.post-quote
+//-   .post-meta
+//-     .post-type
+//-       i.icon-quote-left.icon-2x
+//-     .post-data
+//-       span.month Jul
+//-       span.day 06
+//-       span.year 2012
+//-   .post-content
+//-     h2: a(href="/show") If you don&rsquo;t go after what you want, you&rsquo;ll never have it. If you don&rsquo;t ask, the answer is always no. If you don&rsquo;t step forward, you&rsquo;re always in the same place.
+//-     p Nora Roberts
+
+//- .post.post-image
+//-   .post-meta
+//-     .post-type
+//-       i.icon-camera-retro.icon-2x
+//-     .post-data
+//-       span.month Jul
+//-       span.day 06
+//-       span.year 2012
+//-   .post-content
+//-     h2: a(href="#"): img(src="/img/logo-demo.png")
+//-     p Branding style for a construction related website
+
+//- .post.post-tweet
+//-   .post-meta
+//-     .post-type
+//-       i.icon-twitter.icon-2x
+//-     .post-data
+//-       span.month Jul
+//-       span.day 06
+//-       span.year 2012
+//-   .post-content
+//-     h2 Great Pathfinder game last night! Except for the part where I died and my jerk friends drew a penis on my character&rsquo;s dead face
+//-     p: a(href="#") View it on Twitter <i class="icon-external-link"></i>
